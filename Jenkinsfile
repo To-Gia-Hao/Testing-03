@@ -9,8 +9,9 @@ node {
 
     stage('Build image') {
         /* This builds the actual image */
-
-        app = docker.build("anandr72/nodeapp")
+	sh "docker build --tag crypto:latest ."
+	sh "docker tag crypto:latest duckymomo20012/cryptohub:latest"
+        //app = docker.build("anandr72/nodeapp")
     }
 
     stage('Test image') {
