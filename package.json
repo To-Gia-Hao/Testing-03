@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rchidana/NodeApp"
+    "url": "https://github.com/To-Gia-Hao/Testing-03"
   },
   "keywords": [
     "node",
     "docker",
     "dockerfile"
   ],
-  "author": "crudsinfotechng@gmail.com",
+  "author": "giahaoot01@gmail.com",
   "license": "ISC",
   "devDependencies": { "test": ">=0.6.0" }
 }
