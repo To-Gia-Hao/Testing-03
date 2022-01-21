@@ -10,6 +10,7 @@ node {
     stage('Build image') {
         /* This builds the actual image */
 	checkout scm
+	checkout scm
         //app = docker.build("anandr72/nodeapp")
     }
 
